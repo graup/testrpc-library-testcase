@@ -1,0 +1,19 @@
+{
+  "name": "ethereum-testcase",
+  "version": "0.0.1",
+  "description": "Testcase",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && node build/main.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "solc-loader": "1.x",
+    "web3": "^0.15.3",
+    "web3-loader": "1.x",
+    "webpack": "^1.13.0"
+  }
+}
